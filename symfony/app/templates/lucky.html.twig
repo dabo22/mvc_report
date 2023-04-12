@@ -1,9 +1,15 @@
 {% extends "base.html.twig" %}
 
-{% block title %}Magic number{% endblock %}
+{% block title %}Lucky sidan{% endblock %}
 
 {% block body %}
-<h1>Magic number</h1>
-<p>Welcome to my awesome magical homepage.</p>
-<p>This is the current magic number: {{ number }}</p>
+<h1>Lucky Number</h1>
+<p>Här slumpas det ett turnummer till dig!</p>
+<p>Detta är turnumret: {{ number }}</p>
+
+<p>Jag passar på att lägga upp en bild på vår hund som hette Lucky när han adopterades, han döptes sedan om till Leo.
+</p>
+<a href="{{ asset('img/leo.JPG') }}">
+    <img src="{{ asset('img/leo.JPG') }}" width="250px" alt="Leo serveras en leverpastejstårta">
+</a>
 {% endblock %}
