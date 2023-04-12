@@ -1,10 +1,11 @@
 body {
     background-color: lightgray;
+    max-width: 800px;
 }
 
 .main {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 h1 {
@@ -18,4 +19,19 @@ h1 {
 
 .site-title {
     font-size: 25px;
+}
+
+.two-col-div {
+    display: flex;
+    width: 100%;
+}
+
+.left-col {
+    flex: 0 0 75%;
+    width: 75%;
+}
+
+.right-col {
+    flex: 0 0 25%;
+    width: 25%;
 }

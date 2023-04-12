@@ -4,4 +4,40 @@
 
 {% block body %}
 <h1>Report</h1>
+
+<div class="two-col-div">
+    <div class="left-col">
+        <h2 id="kmom01">kmom01</h2>
+        <p>redovisningstext...</p>
+        <h2 id="kmom02">kmom02</h2>
+        <p>redovisningstext...</p>
+        <h2 id="kmom03">kmom03</h2>
+        <p>redovisningstext...</p>
+        <h2 id="kmom04">kmom04</h2>
+        <p>redovisningstext...</p>
+        <h2 id="kmom05">kmom05</h2>
+        <p>redovisningstext...</p>
+        <h2 id="kmom06">kmom06</h2>
+        <p>redovisningstext...</p>
+
+        <h2 id="kmom10">kmom10</h2>
+        <p>redovisningstext...</p>
+
+    </div>
+    <div class="right-col">
+        <h3>Index</h3>
+        <ul>
+
+            <li><a href="{{ path('report') }}#kmom01">kmom01</a></li>
+            <li><a href="{{ path('report') }}#kmom02">kmom02</a></li>
+            <li><a href="{{ path('report') }}#kmom03">kmom03</a></li>
+            <li><a href="{{ path('report') }}#kmom04">kmom04</a></li>
+            <li><a href="{{ path('report') }}#kmom05">kmom05</a></li>
+            <li><a href="{{ path('report') }}#kmom06">kmom06</a></li>
+            <li><a href="{{ path('report') }}#kmom10">kmom10</a></li>
+        </ul>
+
+    </div>
+</div>
+
 {% endblock %}
