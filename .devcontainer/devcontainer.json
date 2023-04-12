@@ -16,7 +16,8 @@
 		"ghcr.io/devcontainers/features/node:1": {
 			"nodeGypDependencies": true,
 			"version": "lts"
-		}
+		},
+		"ghcr.io/shyim/devcontainers-features/symfony-cli:latest": {}
 		// "ghcr.io/devcontainers-contrib/features/apt-packages:1": {
 		// 	"clean_ppas": true,
 		// 	"preserve_apt_list": true,
