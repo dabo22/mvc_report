@@ -26,9 +26,17 @@
     </ul>
 </nav>
 
-<body class="main">
-    {% block body %}{% endblock %}
+
+<body>
+    {# <main class="main"> #}
+        <main>{% block body %}{% endblock %}</main>
+        {#
+    </main> #}
 </body>
-<footer class="site-footer"></footer>
+
+
+<footer class="site-footer">
+    <p>Sidan skapad av Daniel Lindell för kursen MVC. 2023</p>
+</footer>
 
 </html>
