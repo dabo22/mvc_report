@@ -3,8 +3,27 @@
 {% block title %}About{% endblock %}
 
 {% block body %}
+<div class="two-col-div">
+    <div class="left-col">
 <h1>Om</h1>
 <p>Denna sida är skapad i Symfony tillsammans med twig. Den är skapad för kursen objektorienterade webbteknologier på
     BTH.</p>
 <p>Tanken är att denna sida ska växa och bli snyggare och bättre. Än sålänge är den inte mycket för världen.</p>
+
+<a href="https://github.com/dbwebb-se/mvc/">Kursens GitHub Repo</a><br>
+<a href="https://github.com/dabo22/mvc_report/">Denna hemsidas GitHub Repo</a>
+
+    </div>
+    <div class="right-col">
+    <div class="right-col-images">
+        <img src="{{ asset('img/github.svg') }}" width="75px" alt="">
+                <img src="{{ asset('img/php.svg') }}" width="75px" alt="">
+                        <img src="{{ asset('img/symfony.svg') }}" width="75px" alt="">
+                                <img src="{{ asset('img/twig.svg') }}" width="75px" alt="">
+    </div>
+
+    </div>
+</div>
+
+
 {% endblock %}

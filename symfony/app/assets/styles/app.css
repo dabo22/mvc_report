@@ -84,3 +84,14 @@ nav a, footer {
 .image {
     max-width: 300px;
 }
+
+.right-col-images {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .right-col-images img {
+    margin: 5px 5px; /* Add some space between images */
+  }
+  
